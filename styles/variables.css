@@ -6,4 +6,12 @@
   --bg: url("/images/cover-image-dark.png");
   --bg-color: #000028;
   --accent-color: #FF0070;
+  --btn-border: #FF007066;
+  --title-color: #DB00FF;
+  --header__shadow-color: #FF0070;
+  --footer__shadow-color: #FF0070;
+  --text-bg-color: #FF0070;
+  --text-color: #000028;
+  --block_text-color: #F1B2CE;
+  --text-link__shadow-color: #FF0070;
 }
