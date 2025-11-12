@@ -3,9 +3,7 @@
   Здесь окажутся стили, которые нужно переопределить принудительно,
   переключая тему
 */
-.rec {
-  display: none;
-}
+
 :root.theme-light {
   /* сохраните этот селектор в приведённом виде.
     Так стили написанные ниже будут иметь больший вес,
@@ -21,6 +19,7 @@
   --text-color: #353430;
   --block_text-color: #353430; 
   --text-link__shadow-color: #FF8DCB;
+  --rec-display: none;
 }
 
 @media (prefers-color-scheme: light) {
@@ -37,6 +36,5 @@
     --block_text-color: #353430; 
     --text-link__shadow-color: #FF8DCB;
   }
-
   /* Остальные стили, только при необходимости */
 } 
