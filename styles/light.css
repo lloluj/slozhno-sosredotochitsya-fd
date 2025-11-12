@@ -17,7 +17,7 @@
   --header__shadow-color: #FF8DCB;
   --text-bg-color: #FF8DCB;
   --text-color: #353430;
-  --block_text-color: #353430; 
+  --block_text-color: #353430;
   --text-link__shadow-color: #FF8DCB;
   --rec-display: none;
 }
@@ -33,7 +33,7 @@
     --header__shadow-color: #FF8DCB;
     --text-bg-color: #FF8DCB;
     --text-color: #353430;
-    --block_text-color: #353430; 
+    --block_text-color: #353430;
     --text-link__shadow-color: #FF8DCB;
   }
   /* Остальные стили, только при необходимости */
