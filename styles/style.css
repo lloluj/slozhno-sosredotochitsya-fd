@@ -62,7 +62,7 @@
   
 }
 .header__theme-menu {
-  margin-top: 75px;
+  margin-top: 79px;
   justify-self: end;
   margin-right: 10px;
   height: fit-content;
@@ -243,7 +243,7 @@
     font-size: clamp(7.5rem, 0.5625rem + 14.4531vw, 9.8125rem);
   }
   .header__theme-menu {
-    margin-top: 192px;
+    margin-top: 198px;
     margin-right: 20px;
   }
   .header__text {
