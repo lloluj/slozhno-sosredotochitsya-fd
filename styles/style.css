@@ -112,7 +112,7 @@
 }
 .header__text {
   align-self: start;
-  margin-top: 50px;
+  margin-top: 52px;
   margin-left: 10px;
   margin-right: 10px;
   color: var(--text-color);
@@ -143,6 +143,9 @@
 }
 .text__link:focus-visible {
   border: 1px solid var(--block_text-color);
+}
+.decision {
+  margin: 0 10px;
 }
 .decision__title {
   font-family: IBM Plex Mono, sans-serif;
@@ -185,6 +188,12 @@
 }
 .block__picture {
   margin-top: 50px;
+  margin-left: 10px;
+  margin-right: 10px;
+  display: grid;
+  gap: 10px;
+}
+.block__picture-items {
   display: grid;
   gap: 10px;
 }
@@ -264,9 +273,8 @@
     margin-top: 162px;
     margin-right: 20px;
   }
-  .questions {
+  .decision {
     margin: 0 20px;
-    gap: 80px;
   }
   .block-content_box {
     min-width: 472px;
@@ -278,6 +286,10 @@
   }
   .decision__title-width {
     width: 236px;
+  }
+  .block__picture {
+    margin-left: 20px;
+    margin-right: 20px;
   }
   .block__picture-items {
     display: grid;
