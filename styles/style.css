@@ -254,7 +254,7 @@
     width: 364px;
     display: inline-block;
     justify-self: end;
-    margin-top: 162px;
+    margin-top: clamp(114px, (162px - (100vw - 768px) * 0.2), 162px);
     margin-right: 20px;
   }
   .main {
