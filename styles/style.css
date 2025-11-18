@@ -1,4 +1,7 @@
 /* Основные стили проекта. Это стили для темы, которую вы верстаете первой. */
+a {
+  text-decoration: none;
+}
 :focus {
   outline: none;
 }
@@ -21,9 +24,10 @@
   display: grid;
   grid-template-rows: 1fr min-content 1fr;
 }
-/* Общие стили для верхних правых углов (header и footer) */
-.header::before,
-.footer::before {
+.decorated-zone {
+  position: relative;
+}
+.decorated-zone::before {
   content: "";
   position: absolute;
   width: 25.04px;
@@ -34,9 +38,8 @@
   border-right: 1px solid var(--accent-color);
 }
 
-/* Общие стили для нижних левых углов (header и footer) */
-.header::after,
-.footer::after {
+/* Нижний левый угол */
+.decorated-zone::after {
   content: "";
   position: absolute;
   width: 25.04px;
@@ -47,7 +50,7 @@
   border-left: 1px solid var(--accent-color);
 }
 .rec {
-  font-family: IBM Plex Mono , sans-serif;
+  font-family: IBM Plex Mono, sans-serif;
   font-weight: 400;
   font-size: 18px;
   line-height: 25px;
@@ -68,7 +71,6 @@
   margin-left: 10px;
   background-color: var(--accent-color);
   box-shadow: 0 0 4px 2px var(--accent-color);
-  
 }
 .header__theme-menu {
   margin-top: 79px;
@@ -82,12 +84,11 @@
   gap: 10px;
 }
 .header__theme-menu-item {
-  font-family: IBM Plex Mono ,sans-serif;
+  font-family: IBM Plex Mono, sans-serif;
   font-weight: 400;
   font-size: 18px;
   line-height: 18px;
   text-align: center;
-
 }
 .header__theme-menu-button {
   background-color: transparent;
@@ -96,7 +97,7 @@
   border: 1px solid transparent;
 }
 .header__theme-menu-button_active {
-  border: 1px solid var(--accent-color)
+  border: 1px solid var(--accent-color);
 }
 .header__theme-menu-button:hover {
   border: 1px solid var(--btn-border);
@@ -106,7 +107,7 @@
 }
 .header__title {
   margin-left: 10px;
-  font-family: IBM Plex Mono ,sans-serif;
+  font-family: IBM Plex Mono, sans-serif;
   font-weight: 700;
   font-size: clamp(7.25rem, 7.0115rem + 1.0178vw, 7.5rem);
   line-height: 83%;
@@ -138,6 +139,7 @@
 .text__link {
   color: var(--text-color-accent);
   text-shadow: 2px 1px 0 var(--interactive-text-shadow-color);
+  text-decoration: none; /*убрал нижнее подчеркивание*/
 }
 .text__link:hover {
   border-bottom: 1px solid var(--text-color-accent);
@@ -190,7 +192,6 @@
   font-weight: 400;
   font-size: 18px;
   line-height: 23.4px;
-
 }
 .block__picture {
   display: grid;
@@ -215,7 +216,7 @@
 }
 
 .footer__title {
-  font-family: IBM Plex Mono , sans-serif;
+  font-family: IBM Plex Mono, sans-serif;
   font-weight: 700;
   font-size: clamp(7.25rem, 7.0115rem + 1.0178vw, 7.5rem);
   line-height: 83%;
@@ -341,7 +342,7 @@
   }
   .block__item-line {
     display: grid;
-    grid-template-columns: repeat(3 , 1fr);
+    grid-template-columns: repeat(3, 1fr);
     gap: 20px;
   }
   .decision__title-width {

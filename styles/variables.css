@@ -5,14 +5,14 @@
 :root {
   --bg: url("../images/cover-image-dark.png");
   --bg-color: #000028;
-  --accent-color: #FF0070;
-  --btn-border: #FF007066;
-  --title-color: #DB00FF;
-  --shadow-color: #FF0070;
-  --shadow-default: #FF0070;
-  --text-bg-color: #FF0070;
+  --accent-color: #ff0070;
+  --btn-border: #ff007066;
+  --title-color: #db00ff;
+  --shadow-color: #ff0070;
+  --shadow-default: #ff0070;
+  --text-bg-color: #ff0070;
   --text-color: #000028;
-  --text-color-accent: #F1B2CE;
-  --interactive-text-shadow-color: #FF0070;
+  --text-color-accent: #f1b2ce;
+  --interactive-text-shadow-color: #ff0070;
   --element-display: block;
 }
